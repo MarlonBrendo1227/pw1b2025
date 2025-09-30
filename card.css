@@ -1,6 +1,37 @@
 .card{
     border: 1px solid #000;
-    background-color: yellow;
+    background-color: #fff;
     width: 268px;
     height: 474px;
+    margin: 10px;
+    border-radius: 10px;
 }
+.card-description{
+    font-family: 'Courier New', Courier, monospace;
+}
+.card-star{
+    color: orange;
+    display: flex;
+    justify-content:end; 
+}
+.body{
+    display: flex;
+}
+.card-image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.card-desconto{
+
+}
+.card-price{
+
+}
+.card-parcelamento{
+
+}
+.card-buttom-buy
+
+
