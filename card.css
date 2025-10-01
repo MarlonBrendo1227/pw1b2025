@@ -7,7 +7,7 @@
     border-radius: 10px;
 }
 .card-description{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .card-star{
     color: orange;
@@ -24,14 +24,22 @@
     margin: 0 auto;
 }
 .card-desconto{
-
+    margin-top: 5%;
+    display: flex;
+    
+    
 }
 .card-price{
-
+    margin-top: 5%;
 }
 .card-parcelamento{
-
+    margin-top: 5%;
 }
-.card-buttom-buy
+.card-buttom-buy{
+    margin-top: 5%;
+}
+.Espaço{
+    margin-top: 3%;
+}
 
 
