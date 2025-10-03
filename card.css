@@ -10,9 +10,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .card-star{
-    color: orange;
+    color: #ff6600;
     display: flex;
-    justify-content:end; 
+    justify-content:end;
+    margin-top: 5%;
+
 }
 .body{
     display: flex;
@@ -26,20 +28,53 @@
 .card-desconto{
     margin-top: 5%;
     display: flex;
-    
+    justify-content: space-between;
     
 }
 .card-price{
     margin-top: 5%;
+    display: flex;
+    align-items: center;
 }
 .card-parcelamento{
     margin-top: 5%;
 }
 .card-buttom-buy{
-    margin-top: 5%;
+    margin-top: 10%;
+    margin-left: 7%;
+    width: 95%;
+    height: 40px;
 }
 .Espaço{
     margin-top: 3%;
 }
+.risco{
+    text-decoration: line-through;
+    color: grey;
+}
+.din{
+    color: #ff6600;
+    font-size: 20px;
+}
+.des{
+    color: #ffffff;
+    background-color: #ff6600;
+    border-radius: 10px;
+    margin-left: 5%;
+    align-items: center;
+}
+.botao{
+    width: 90%;
+    height: 40px;
+    color: #fff;
+    background-color:#ff6600; 
+    border: none;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
 
 
