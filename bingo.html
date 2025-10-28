@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+    <meta charset0,
+    ="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cartela</title>
@@ -40,7 +41,7 @@
             align-items: center;
         }
         body{
-            display: flex;
+            display:;
             justify-content: center;
             align-items: center;
         }
@@ -115,6 +116,39 @@
         var g = []
         var o = []
 
+    </script>
+
+    
+    <!-- <script>
+
+        function NumeroAleotorio(numeroMaximo)
+        {
+            var retorno = Math.random()
+            retorno = (retorno*numeroMaximo)
+            retorno = Math.floor(retorno)
+            return retorno
+        }
+        
+        document.write( "<h1>"+ NumeroAleotorio(150)+"<h1>" )
+    </script>
+     -->
+
+    <script>
+        function NumeroAleotorio(numeroMinimo, numeroMaximo)
+        {
+            var retorno = Math.random()
+            retorno = (retorno*numeroMaximo)
+            retorno = Math.floor(retorno)
+            if(retorno >= numeroMinimo)
+            {
+                return retorno
+            }else{
+                return NumeroAleotorio(numeroMinimo, numeroMaximo)
+            }
+        }
+
+        document.write("<h1>"+ NumeroAleotorio(140,150)+"<h1>")
+            
     </script>
 </body>
 </html>
